@@ -16,6 +16,8 @@ header.site nav{display:flex;gap:18px;flex-wrap:wrap}
 .hero p{font-size:19px;max-width:640px;margin:0 auto 24px;opacity:.95}
 .btn{display:inline-block;background:#fff;color:var(--deep);padding:14px 26px;border-radius:999px;font-weight:800;text-decoration:none}
 .btn.alt{background:transparent;color:#fff;border:2px solid #fff;margin-left:8px}
+.trailer{display:block;width:100%;max-width:900px;margin:0 auto;border-radius:16px;box-shadow:0 10px 30px rgba(11,42,91,.25);background:var(--deep);aspect-ratio:16/9}
+.doc .trailer{margin:0 0 12px}
 .shot{width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(11,42,91,.25);margin:32px auto 0;max-width:900px}
 section{padding:48px 0}
 h2{font-size:28px;margin:0 0 16px;color:var(--deep)}
@@ -27,6 +29,7 @@ h2{font-size:28px;margin:0 0 16px;color:var(--deep)}
 .parents ul{padding-left:20px}
 .parents li{margin:6px 0}
 .facts td,.facts th{padding:8px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.facts td{overflow-wrap:anywhere}
 .facts{border-collapse:collapse;width:100%;background:#fff;border-radius:12px}
 footer{background:var(--deep);color:#cfe3f3;padding:24px 0;font-size:15px}
 footer a{color:#fff}
